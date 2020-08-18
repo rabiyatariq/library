@@ -1,0 +1,370 @@
+body {
+    background-color :rgb(218, 197, 171);
+    font-family: cursive;
+    box-sizing: border-box;
+  }
+#slider-img{
+  height:430px;
+}
+.intro-heading {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-weight: 800;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: gray;
+        width: 100%;
+        border: 1px solid brown;
+      }
+h1{
+    text-align: center;
+}
+
+#myHeader{
+    border-color: burlywood;
+    background-color:palegoldenrod;
+    color: black;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+    
+}
+    li{display: inline;
+    margin-right: 10px;
+    text-align: center;
+    margin: 10px;
+    border: black;
+}
+
+ a:hover
+    {
+        color:black;
+    }
+   blockquote{
+       float: right;
+       width: 275px;
+       font-size: 100%;
+       font-style: italic;
+       margin: 0px 0px 10px 10px;
+       padding: 10px;
+
+   }
+   .nav 
+
+     {
+        list-style-type: square;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: gray;
+        width: 100%;
+        border: 1px solid brown;
+      }
+      
+      li {
+        float: left;
+         border-right: 1px solid #bbb
+         
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+      
+      li a:hover {
+        background-color: darkcyan;
+      }
+     #bookhub
+     {
+       text-align: left;
+      border: gray;
+     }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 40px;
+        text-align: center;
+        font-family: arial;
+        padding: 20px;
+      }
+      .card-image
+      {
+      height: 248px;
+      }
+      .price {
+        color: black;
+        font-size: 22px;
+      }
+      
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .card button:hover {
+        opacity: 0.7;
+      }
+        /* Change styles for cancel button and signup button on extra small screens */
+        @media screen and (max-width: 300px) {
+          .cancelbtn, .signupbtn {
+             width: 100%;
+          }
+        }
+       /* Full-width inputs */
+      input[type=text], input[type=password] {
+        border: 1px solid brown;
+        box-sizing: border-box;
+        border-radius: 20px;
+        padding: 3px 10px;
+        box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+       margin: 8px 0;
+          border: 1px solid brown;
+          display: inline;
+      }
+       .cancelbutton {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+      }
+      
+      .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+        border: lightcoral;
+        box-sizing: border-box;
+      }
+      
+      * {box-sizing:border-box}
+
+
+      .logo{
+        size: 4px;
+      }
+       #about-section {
+        padding: 20px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+       }
+       #about-section p
+       {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+       }
+      .list
+      {
+        display: contents;
+      }
+      @media screen and (max-width: 300px){
+  footer { position: static; }
+  header { padding-top:40px; }
+}
+ 
+ 
+.footer-distributed{
+  background-color: #2c292f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-distributed .footer-left{
+  width: 30%;
+}
+ 
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 24px 'Cookie', cursive;
+  margin: 0;
+}
+ 
+/* The company logo */
+ 
+.footer-distributed .footer-left img{
+  width: 20%;
+}
+ 
+.footer-distributed h3 span{
+  color:  #e0ac1c;
+}
+ 
+/* Footer links */
+ 
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+}
+.footer-distributed h5
+{
+  color:  #ffffff;
+  font: normal  'Cookie', cursive;
+  margin: 0;
+  line-height: 2;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+/* Footer Center */
+ 
+.footer-distributed .footer-center{
+  width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+ 
+.footer-distributed .footer-center p {
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+ 
+/* Footer Right */
+ 
+.footer-distributed .footer-right{
+  width: 30%;
+}
+ 
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+ 
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+ 
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for all buttons */
+  .signupbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    width: 30%;
+  }
+    h2{
+      width: 55%;
+      margin: 0 auto;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+  }
+   
